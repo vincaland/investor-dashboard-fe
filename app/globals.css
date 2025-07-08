@@ -121,4 +121,25 @@
   }
 }
 
+.button-style {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  padding: 12px 20px;
+  background-color: #03ac13;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.3s ease;
+}
 
+.button-style:hover {
+  background-color: darkviolet;
+  transform: translateY(-2px);
+}
